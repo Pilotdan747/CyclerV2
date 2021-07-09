@@ -1,0 +1,1 @@
+g++-11 -fopenmp -L /usr/local/lib -lnlopt -lm -DARMA_DONT_USE_WRAPPER -framework accelerate -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Test.dir/src/Test.cpp.o -o Test 

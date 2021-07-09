@@ -1,0 +1,107 @@
+[
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/Derivative.dir/src/Derivative.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Derivative.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Derivative.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/Derivative.dir/src/cycler.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/cycler.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/cycler.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/Derivative.dir/src/Lambert_Multi.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Lambert_Multi.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Lambert_Multi.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/Derivative.dir/src/helperFuncs.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/helperFuncs.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/helperFuncs.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/Optimize.dir/src/Optimize.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Optimize.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Optimize.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/Optimize.dir/src/cycler.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/cycler.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/cycler.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/Optimize.dir/src/Lambert_Multi.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Lambert_Multi.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Lambert_Multi.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/Optimize.dir/src/helperFuncs.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/helperFuncs.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/helperFuncs.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/Cycle.dir/src/main.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/main.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/main.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/Cycle.dir/src/cycler.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/cycler.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/cycler.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Lambert_Multi.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Lambert_Multi.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/Cycle.dir/src/helperFuncs.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/helperFuncs.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/helperFuncs.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/SingleCycle.dir/src/SingleCycler.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/SingleCycler.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/SingleCycler.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/SingleCycle.dir/src/cycler.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/cycler.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/cycler.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/SingleCycle.dir/src/Lambert_Multi.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Lambert_Multi.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Lambert_Multi.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/SingleCycle.dir/src/helperFuncs.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/helperFuncs.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/helperFuncs.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/TestS1L1.dir/src/TestS1L1.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/TestS1L1.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/TestS1L1.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/TestS1L1.dir/src/cycler.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/cycler.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/cycler.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/TestS1L1.dir/src/Lambert_Multi.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Lambert_Multi.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Lambert_Multi.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/TestS1L1.dir/src/Lambert_Battin.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Lambert_Battin.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Lambert_Battin.cpp"
+},
+{
+  "directory": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+  "command": "g++   -fopenmp -L/usr/local/lib -lnlopt -lm -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/TestS1L1.dir/src/helperFuncs.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/helperFuncs.cpp",
+  "file": "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/helperFuncs.cpp"
+}
+]

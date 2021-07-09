@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/Lambert_Multi.cpp
+include/Lambert_Multi.h
+/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/include/Lambert_Multi.h
+iostream
+-
+
+/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/include/Lambert_Multi.h
+helperFuncs.h
+/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/include/helperFuncs.h
+cmath
+-
+
+/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/src/include/helperFuncs.h
+

@@ -1,0 +1,1 @@
+g++ -fopenmp -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Cycle.debug.dir/src/main.cpp.o CMakeFiles/Cycle.debug.dir/src/cycler.cpp.o CMakeFiles/Cycle.debug.dir/src/Lambert_Multi.cpp.o CMakeFiles/Cycle.debug.dir/src/helperFuncs.cpp.o -o Cycle.debug 

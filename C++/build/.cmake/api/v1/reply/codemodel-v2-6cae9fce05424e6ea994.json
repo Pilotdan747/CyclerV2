@@ -1,0 +1,95 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Mars_Cycle",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Cycle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Cycle-Debug-6ef70506bf9f7fff8163.json",
+					"name" : "Cycle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Derivative::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Derivative-Debug-b7e5c2e97ec9138e647c.json",
+					"name" : "Derivative",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Optimize::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Optimize-Debug-a1c069663c5b3590f028.json",
+					"name" : "Optimize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SingleCycle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SingleCycle-Debug-66da2e345d649c6ce11b.json",
+					"name" : "SingleCycle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestS1L1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestS1L1-Debug-e64dd9413f1f80a6aa61.json",
+					"name" : "TestS1L1",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++/build",
+		"source" : "/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

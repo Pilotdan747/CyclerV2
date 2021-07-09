@@ -1,0 +1,1 @@
+g++-11 -fopenmp -L /usr/local/lib -lnlopt -lm -DARMA_DONT_USE_WRAPPER -framework accelerate -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Derivative.dir/src/Derivative.cpp.o CMakeFiles/Derivative.dir/src/cycler.cpp.o CMakeFiles/Derivative.dir/src/Lambert_Multi.cpp.o CMakeFiles/Derivative.dir/src/helperFuncs.cpp.o -o Derivative 
