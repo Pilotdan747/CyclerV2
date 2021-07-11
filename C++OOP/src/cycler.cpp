@@ -362,6 +362,9 @@ double cycleMulti(double dT1, double dT2, double dT3, double phi, bool flag1, bo
         }
     }
 
+    delete Earth;
+    delete Mars;
+
     double dV = dV1 + dV2 + dV3 + dV4;
 
     return dV;

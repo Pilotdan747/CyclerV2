@@ -25,6 +25,10 @@ Orbit::Orbit(double muIn, double a, double e, double inc, double RAAN, double ar
     this->TA = TA;
 }
 
+//Orbit::~Orbit() {
+    //delete state;
+//}
+
 void Orbit::Kepler(double t) {
     double n = sqrt(mu/pow(a, 3.0));
     double E0 = atan2(sqrt(1 - pow(e, 2.0))*sin(TA), e + cos(TA));

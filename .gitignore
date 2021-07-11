@@ -35,7 +35,8 @@
 *.csv
 *.csv.old
 *.mat
+*.m
 
 # Build
-build/*
+C++OOP/build/*
 

@@ -19,6 +19,7 @@ class Orbit {
         Orbit(double);
         Orbit(double, vec, vec);
         Orbit(double, double, double, double, double, double, double);
+        //~Orbit();
         void Kepler(double);
         void state2OE(vec, vec);
         vec* getState();

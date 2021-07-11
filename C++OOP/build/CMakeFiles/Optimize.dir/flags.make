@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = 
 
-CXX_FLAGS = -g -fopenmp -L /usr/local/lib -lnlopt -lm -DARMA_DONT_USE_WRAPPER -framework accelerate -std=gnu++11
+CXX_FLAGS = -g -fopenmp -L /usr/local/lib -lnlopt -lm -DARMA_DONT_USE_WRAPPER -framework accelerate -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++11
 

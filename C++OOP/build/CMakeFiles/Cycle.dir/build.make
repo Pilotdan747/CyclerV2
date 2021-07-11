@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.20.2/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.20.5/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.20.2/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.20.5/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP
+CMAKE_SOURCE_DIR = /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/build
+CMAKE_BINARY_DIR = /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Cycle.dir/depend.make
@@ -72,58 +72,58 @@ include CMakeFiles/Cycle.dir/flags.make
 CMakeFiles/Cycle.dir/src/main.cpp.o: CMakeFiles/Cycle.dir/flags.make
 CMakeFiles/Cycle.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/Cycle.dir/src/main.cpp.o: CMakeFiles/Cycle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Cycle.dir/src/main.cpp.o"
-	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cycle.dir/src/main.cpp.o -MF CMakeFiles/Cycle.dir/src/main.cpp.o.d -o CMakeFiles/Cycle.dir/src/main.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Cycle.dir/src/main.cpp.o"
+	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cycle.dir/src/main.cpp.o -MF CMakeFiles/Cycle.dir/src/main.cpp.o.d -o CMakeFiles/Cycle.dir/src/main.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/src/main.cpp
 
 CMakeFiles/Cycle.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cycle.dir/src/main.cpp.i"
-	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/src/main.cpp > CMakeFiles/Cycle.dir/src/main.cpp.i
+	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/src/main.cpp > CMakeFiles/Cycle.dir/src/main.cpp.i
 
 CMakeFiles/Cycle.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cycle.dir/src/main.cpp.s"
-	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/src/main.cpp -o CMakeFiles/Cycle.dir/src/main.cpp.s
+	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/src/main.cpp -o CMakeFiles/Cycle.dir/src/main.cpp.s
 
 CMakeFiles/Cycle.dir/src/cycler.cpp.o: CMakeFiles/Cycle.dir/flags.make
 CMakeFiles/Cycle.dir/src/cycler.cpp.o: ../src/cycler.cpp
 CMakeFiles/Cycle.dir/src/cycler.cpp.o: CMakeFiles/Cycle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Cycle.dir/src/cycler.cpp.o"
-	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cycle.dir/src/cycler.cpp.o -MF CMakeFiles/Cycle.dir/src/cycler.cpp.o.d -o CMakeFiles/Cycle.dir/src/cycler.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/src/cycler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Cycle.dir/src/cycler.cpp.o"
+	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cycle.dir/src/cycler.cpp.o -MF CMakeFiles/Cycle.dir/src/cycler.cpp.o.d -o CMakeFiles/Cycle.dir/src/cycler.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/src/cycler.cpp
 
 CMakeFiles/Cycle.dir/src/cycler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cycle.dir/src/cycler.cpp.i"
-	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/src/cycler.cpp > CMakeFiles/Cycle.dir/src/cycler.cpp.i
+	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/src/cycler.cpp > CMakeFiles/Cycle.dir/src/cycler.cpp.i
 
 CMakeFiles/Cycle.dir/src/cycler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cycle.dir/src/cycler.cpp.s"
-	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/src/cycler.cpp -o CMakeFiles/Cycle.dir/src/cycler.cpp.s
+	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/src/cycler.cpp -o CMakeFiles/Cycle.dir/src/cycler.cpp.s
 
 CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.o: CMakeFiles/Cycle.dir/flags.make
 CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.o: ../src/Lambert_Multi.cpp
 CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.o: CMakeFiles/Cycle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.o"
-	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.o -MF CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.o.d -o CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/src/Lambert_Multi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.o"
+	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.o -MF CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.o.d -o CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/src/Lambert_Multi.cpp
 
 CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.i"
-	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/src/Lambert_Multi.cpp > CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.i
+	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/src/Lambert_Multi.cpp > CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.i
 
 CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.s"
-	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/src/Lambert_Multi.cpp -o CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.s
+	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/src/Lambert_Multi.cpp -o CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.s
 
 CMakeFiles/Cycle.dir/src/Orbit.cpp.o: CMakeFiles/Cycle.dir/flags.make
 CMakeFiles/Cycle.dir/src/Orbit.cpp.o: ../src/Orbit.cpp
 CMakeFiles/Cycle.dir/src/Orbit.cpp.o: CMakeFiles/Cycle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Cycle.dir/src/Orbit.cpp.o"
-	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cycle.dir/src/Orbit.cpp.o -MF CMakeFiles/Cycle.dir/src/Orbit.cpp.o.d -o CMakeFiles/Cycle.dir/src/Orbit.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/src/Orbit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Cycle.dir/src/Orbit.cpp.o"
+	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cycle.dir/src/Orbit.cpp.o -MF CMakeFiles/Cycle.dir/src/Orbit.cpp.o.d -o CMakeFiles/Cycle.dir/src/Orbit.cpp.o -c /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/src/Orbit.cpp
 
 CMakeFiles/Cycle.dir/src/Orbit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cycle.dir/src/Orbit.cpp.i"
-	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/src/Orbit.cpp > CMakeFiles/Cycle.dir/src/Orbit.cpp.i
+	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/src/Orbit.cpp > CMakeFiles/Cycle.dir/src/Orbit.cpp.i
 
 CMakeFiles/Cycle.dir/src/Orbit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cycle.dir/src/Orbit.cpp.s"
-	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/src/Orbit.cpp -o CMakeFiles/Cycle.dir/src/Orbit.cpp.s
+	g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/src/Orbit.cpp -o CMakeFiles/Cycle.dir/src/Orbit.cpp.s
 
 # Object files for target Cycle
 Cycle_OBJECTS = \
@@ -141,7 +141,7 @@ Cycle: CMakeFiles/Cycle.dir/src/Lambert_Multi.cpp.o
 Cycle: CMakeFiles/Cycle.dir/src/Orbit.cpp.o
 Cycle: CMakeFiles/Cycle.dir/build.make
 Cycle: CMakeFiles/Cycle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Cycle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Cycle"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Cycle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/Cycle.dir/clean:
 .PHONY : CMakeFiles/Cycle.dir/clean
 
 CMakeFiles/Cycle.dir/depend:
-	cd /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/build /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/build /Users/Daniel/Documents/CODE/Research/Kansas/Cycler/C++OOP/build/CMakeFiles/Cycle.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/build /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/build /Users/Daniel/Documents/CODE/Research/Kansas/CyclerV2/C++OOP/build/CMakeFiles/Cycle.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Cycle.dir/depend
 
