@@ -17,6 +17,12 @@ Vinf6 = out(:, 16:18);
 Vinf7 = out(:, 19:21);
 Vinf8 = out(:, 22:24);
 
+
+for i = 1:size
+    VinfE(i) = norm(Vinf1(i, :));
+    VinfM(i) = norm(Vinf2(i, :));
+end
+
 dV = out2(:, 1);
 [dVSort, ind] = sort(dV);
 
